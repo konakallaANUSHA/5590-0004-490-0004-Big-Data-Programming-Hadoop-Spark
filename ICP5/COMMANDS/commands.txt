@@ -1,0 +1,27 @@
+IMPORT COMMAND:
+sqoop import --connect jdbc:mysql://localhost/db1 --username root --password cloudera--table student --m 1
+
+EXPORT COMMAND:
+sqoop export --connect jdbc:mysql://localhost/db1 --username root --password cloudera--table tablename(CREATED IN SQL) --export -dir tablename(hadoop in this case it is student)
+
+
+IMPORT COMMAND (HIVE):
+sqoop import --connect jdbc:mysql://localhost/db1 --username root --password cloudera--table student1 --m1 --hive-import --create-hive-table --hive-table studenthive
+
+
+
+EXPORT COMMAND (HIVE):
+sqoop export --connect jdbc:mysql://localhost/db1 --username root --password cloudera --table petrol1 --export-dir/user/hive/warehouse/petrol
+
+
+QUERIES:
+
+WORD COUNT:
+Select word, count(1) AS count FROM (SELECT explode(split(name,’\\s’))AS word FROM try1) w GROUP BY word ORDER BY word;
+
+STATISTICS:
+ANALYZE TABLE try1 COMPUTE STATISTICS;
+
+PATTERN RECOGNISING:
+SELECT regexp_replace(‘king’, ‘1.*\\.(Farewell)$’, ‘ ’);
+
