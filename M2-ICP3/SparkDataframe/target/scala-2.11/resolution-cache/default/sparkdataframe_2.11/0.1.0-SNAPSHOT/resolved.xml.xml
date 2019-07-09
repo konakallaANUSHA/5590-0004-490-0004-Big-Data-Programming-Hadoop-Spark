@@ -4,7 +4,7 @@
 		module="sparkdataframe_2.11"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20190708101320"
+		publication="20190708220902"
 	>
 		<description>
 		SparkDataframe
