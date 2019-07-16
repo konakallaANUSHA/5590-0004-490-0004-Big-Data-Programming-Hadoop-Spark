@@ -1,0 +1,36 @@
+[0m[[0m[0mdebug[0m] [0m[0mAcquiring lock on file /Users/anushakonakalla/Downloads/Source code/SparkGraphframe/project/target/.sbt-compilation-infos/sparkgraphframe-compile/.sbt-idea-lock ...[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anushakonakalla/Downloads/Source code/SparkGraphframe/src/main/scala/ICP.scala:1:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anushakonakalla/Downloads/Source code/SparkGraphframe/src/main/scala/ICP.scala:2:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anushakonakalla/Downloads/Source code/SparkGraphframe/src/main/scala/ICP.scala:3:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.functions._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anushakonakalla/Downloads/Source code/SparkGraphframe/src/main/scala/ICP.scala:4:12: object graphframes is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.graphframes.GraphFrame[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anushakonakalla/Downloads/Source code/SparkGraphframe/src/main/scala/ICP.scala:5:8: not found: object spire[0m
+[0m[[0m[31merror[0m] [0m[0mimport spire.syntax.order[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anushakonakalla/Downloads/Source code/SparkGraphframe/src/main/scala/ICP.scala:10:17: not found: value SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m    val spark = SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anushakonakalla/Downloads/Source code/SparkGraphframe/src/main/scala/ICP.scala:70:24: not found: value GraphFrame[0m
+[0m[[0m[31merror[0m] [0m[0m    val stationGraph = GraphFrame(stationVertices, tripEdges)[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anushakonakalla/Downloads/Source code/SparkGraphframe/src/main/scala/SparkGraphFrame.scala:1:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anushakonakalla/Downloads/Source code/SparkGraphframe/src/main/scala/SparkGraphFrame.scala:2:12: object graphframes is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.graphframes.GraphFrame[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anushakonakalla/Downloads/Source code/SparkGraphframe/src/main/scala/SparkGraphFrame.scala:7:17: not found: value SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m    val spark = SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/anushakonakalla/Downloads/Source code/SparkGraphframe/src/main/scala/SparkGraphFrame.scala:33:13: not found: value GraphFrame[0m
+[0m[[0m[31merror[0m] [0m[0m    val g = GraphFrame(input,output)[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m11 errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mReleasing lock on file /Users/anushakonakalla/Downloads/Source code/SparkGraphframe/project/target/.sbt-compilation-infos/sparkgraphframe-compile/.sbt-idea-lock.[0m
